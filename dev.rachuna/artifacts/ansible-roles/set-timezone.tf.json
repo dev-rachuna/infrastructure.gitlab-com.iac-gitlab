@@ -1,0 +1,12 @@
+{
+  "module": {
+    "set-timezone": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "name": "set-timezone",
+      "description": "Rola Ansible konfigurująca strefę czasową i locale na systemach Debian/Ubuntu.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-role"
+    }
+  }
+}
