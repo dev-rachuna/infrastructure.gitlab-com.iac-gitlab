@@ -1,7 +1,7 @@
 {
   "module": {
     "gitlab-group": {
-      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
       "parent_group": "${local.parent_name}",
       "name": "gitlab-group",
       "description": "Moduł Opentofu do zarządzania grupami w GitLab",

@@ -1,7 +1,7 @@
 {
   "module": {
     "iac-gitlab": {
-      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
       "name": "iac-gitlab",
       "description": "IAC do zarządzania obiektami GitLab (gitlab.com).",
       "visibility": "public",
@@ -9,7 +9,7 @@
       "project_type": "opentofu-iac",
       "environments": {
         "production": {
-          "external_url": "hhttps://gitlab.com/pl.rachuna-net/infrastructure/gitlab-com/iac-gitlab/-/terraform"
+          "external_url": "hhttps://gitlab.com/dev.rachuna/infrastructure/gitlab-com/iac-gitlab/-/terraform"
         }
       },
       "ci_schedules": [
