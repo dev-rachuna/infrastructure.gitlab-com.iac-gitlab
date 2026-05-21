@@ -1,6 +1,6 @@
 {
   "locals": {
-    "parent_name": "dev.rachuna/artifacts"
+    "parent_name": "dev.rachuna/artifacts/opentofu"
   },
   "terraform": {
     "required_version": ">= 1.10.5"
