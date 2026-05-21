@@ -3,6 +3,10 @@
         "description": "OpenTofu",
         "color": "#FFEE00"
     },
+    "container": {
+        "description": "Container",
+        "color": "#2986CC"
+    },
     "wniosek": {
         "description": "Wnioski",
         "color": "#DC143C"
