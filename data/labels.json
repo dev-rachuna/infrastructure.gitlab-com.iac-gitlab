@@ -1,0 +1,22 @@
+{
+    "opentofu": {
+        "description": "OpenTofu",
+        "color": "#FFEE00"
+    },
+    "wniosek": {
+        "description": "Wnioski",
+        "color": "#DC143C"
+    },
+    "critical": {
+        "description": "Critical",
+        "color": "#FF0000"
+    },
+    "parametrized": {
+        "description": "Parametrized",
+        "color": "#36454F"
+    },
+    "documentation": {
+        "description": "Documentation",
+        "color": "#6699CC"
+    }
+}

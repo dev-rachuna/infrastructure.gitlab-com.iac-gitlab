@@ -1,0 +1,195 @@
+{
+  "": {
+    "avatar": "",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [],
+    "ci_variables": {},
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "gitlab-profile": {
+    "avatar": "images/gitlab-profile.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "gitlab-profile"
+    ],
+    "ci_variables": {},
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {
+      "*.*.*": {
+        "create_access_level": "maintainer"
+      }
+    }
+  },
+  "gitlab-pipelines": {
+    "avatar": "images/project/gitlab.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "gitlab-profile"
+    ],
+    "ci_variables": {
+      "PROJECT_TYPE": "gitlab-pipelines"
+    },
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "ansible-playbook": {
+    "avatar": "images/ansible.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "ansible",
+      "ansible-playbook"
+    ],
+    "ci_variables": {
+      "ANSIBLE_USER": {
+        "value": "techuser",
+        "description": "Użytkownik techniczny"
+      }
+    },
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "ansible-role": {
+    "avatar": "images/ansible.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "ansible",
+      "ansible-role"
+    ],
+    "ci_variables": {},
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "image-builder": {
+    "avatar": "images/container.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "image-builder",
+      "container"
+    ],
+    "ci_variables": {
+      "PROJECT_TYPE": "image-builder"
+    },
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "opentofu-module": {
+    "avatar": "images/opentofu.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "opentofu",
+      "opentofu-module"
+    ],
+    "ci_variables": {
+      "TERRAFORM_DOCS_AUTOFIX": {
+        "value": "true",
+        "description": "Włączenie autofix przez proces CI/CD"
+      }
+    },
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {
+      "*.*.*": {
+        "create_access_level": "maintainer"
+      }
+    }
+  },
+  "opentofu-iac": {
+    "avatar": "images/opentofu.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "opentofu",
+      "opentofu-iac"
+    ],
+    "ci_variables": {
+      "TERRAFORM_DOCS_AUTOFIX": {
+        "value": "true",
+        "description": "Włączenie autofix przez proces CI/CD"
+      }
+    },
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "nodejs": {
+    "avatar": "images/project/nodejs.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "gitlab-profile"
+    ],
+    "ci_variables": {
+      "PROJECT_TYPE": "nodejs"
+    },
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  },
+  "dotnet-nuget": {
+    "avatar": "images/project/dotnet-nuget.png",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "tags": [
+      "dotnet",
+      "nuget"
+    ],
+    "ci_variables": {},
+    "protected_branches": {
+      "main": {
+        "push_access_level": "maintainer",
+        "merge_access_level": "developer",
+        "allow_force_push": false
+      }
+    },
+    "protected_tags": {}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "vault_kv_secret_v2": {
+      "auth_vault": {
+        "mount": "pl.rachuna-net",
+        "name": "auth/vault.rachuna-net.pl"
+      },
+      "auth_gitlab": {
+        "mount": "pl.rachuna-net",
+        "name": "auth/gitlab.com"
+      }
+    }
+  }
+}

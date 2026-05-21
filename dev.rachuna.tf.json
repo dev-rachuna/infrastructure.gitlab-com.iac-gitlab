@@ -1,0 +1,33 @@
+{
+  "module": {
+    "_dev_rachuna": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=feat/init",
+      "parent_group": "${local.parent_name}",
+      "name": "dev.rachuna",
+      "description": "https://rachuna.dev",
+      "visibility": "public",
+      "default_branch": "main",
+      "avatar": "images/dev.rachuna.png",
+      "labels": "${jsondecode(file(\"${path.module}/data/labels.json\"))}",
+      "badges": "${jsondecode(file(\"${path.module}/data/badges.json\"))}",
+      "members": {
+        "mrachuna": {
+          "access_level": "owner"
+        }
+      },
+      "variables": {
+        "GITLAB_OBSERVABILITY_EXPORT": {
+          "description": "Gitlab Observability",
+          "value": "traces,metrics,logs"
+        },
+        "VAULT_ADDR": {
+          "description": "Adres serwera Vault",
+          "value": "https://vault.rachuna-net.pl"
+        }
+      }
+    },
+    "dev_rachuna": {
+      "source": "./dev.rachuna/"
+    }
+  }
+}

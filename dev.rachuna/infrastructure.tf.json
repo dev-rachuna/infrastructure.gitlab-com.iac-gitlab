@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_infrastructure": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=feat/init",
+      "parent_group": "${local.parent_name}",
+      "name": "infrastructure",
+      "description": "Repozytoria i moduły do zarządzania infrastrukturą jako kodem (IaC).",
+      "visibility": "public",
+      "avatar": "images/infrastructure.png"
+    },
+    "infrastructure": {
+      "source": "./infrastructure/"
+    }
+  }
+}
