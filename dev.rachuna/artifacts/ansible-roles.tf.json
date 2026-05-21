@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_ansible-roles": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=main",
+      "parent_group": "${local.parent_name}",
+      "name": "ansible-roles",
+      "description": "Repozytoria Ansible roles.",
+      "visibility": "public",
+      "avatar": "images/ansible.png"
+    },
+    "ansible-roles": {
+      "source": "./ansible-roles/"
+    }
+  }
+}

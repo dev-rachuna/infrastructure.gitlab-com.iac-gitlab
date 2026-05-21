@@ -1,0 +1,8 @@
+{
+  "locals": {
+    "parent_name": "dev.rachuna/artifacts/ansible-roles"
+  },
+  "terraform": {
+    "required_version": ">= 1.10.5"
+  }
+}
