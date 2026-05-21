@@ -1,0 +1,13 @@
+{
+  "module": {
+    "gitlab-project": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "parent_group": "${local.parent_name}",
+      "name": "gitlab-project",
+      "description": "Moduł Opentofu do zarządzania projektami w GitLab",
+      "visibility": "public",
+      "project_type": "opentofu-module",
+      "avatar": "images/gitlab.png"
+    }
+  }
+}
