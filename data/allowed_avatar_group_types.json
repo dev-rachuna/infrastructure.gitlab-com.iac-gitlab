@@ -1,0 +1,19 @@
+[
+    "",
+    "ansible",
+    "apps",
+    "containers",
+    "dev-tools",
+    "gitlab",
+    "infrastructure",
+    "kubernetes",
+    "libraries",
+    "mikrotik",
+    "packer",
+    "opentofu",
+    "proxmox",
+    "root",
+    "semantic-release",
+    "terraform",
+    "vault"
+]

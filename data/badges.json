@@ -1,0 +1,10 @@
+{
+    "release": {
+        "link_url": "http://gitlab.com/%{project_path}/-/releases",
+        "image_url": "http://gitlab.com/%{project_path}/-/badges/release.svg"
+    },
+    "pipeline": {
+        "link_url": "http://gitlab.com/%{project_path}/-/commits/%{default_branch}",
+        "image_url": "http://gitlab.com/%{project_path}/badges/%{default_branch}/pipeline.svg"
+    }
+}

@@ -19,6 +19,6 @@ Jeśli masz pomysły na ulepszenia, zgłoś problemy, rozwidl repozytorium lub u
 
 ## Author Information
 
-| ![Maciej Rachuna](https://gitlab.com/uploads/-/system/user/avatar/8161705/avatar.png?width=100) |
-|-------------------------------------------------------------------------------------------------|
-| [Maciej Rachuna](https://gitlab.commrachuna)                                                    |
+| ![Maciej Rachuna](https://gitlab.com/uploads/-/system/user/avatar/8161705/avatar.png?width=50) |
+|------------------------------------------------------------------------------------------------|
+| [Maciej Rachuna](https://gitlab.commrachuna)                                                   |
