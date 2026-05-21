@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_opentofu": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=feat/init",
+      "parent_group": "${local.parent_name}",
+      "name": "opentofu",
+      "description": "Opentofu modules.",
+      "visibility": "public",
+      "avatar": "images/opentofu.png"
+    },
+    "opentofu": {
+      "source": "./opentofu/"
+    }
+  }
+}
