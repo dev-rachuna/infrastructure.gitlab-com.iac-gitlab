@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_devtools": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=feat/init",
+      "parent_group": "${local.parent_name}",
+      "name": "devtools",
+      "description": "Narzedzia i skrypty dla developerów",
+      "visibility": "public",
+      "avatar": "images/artifact.png"
+    },
+    "devtools": {
+      "source": "./devtools/"
+    }
+  }
+}
