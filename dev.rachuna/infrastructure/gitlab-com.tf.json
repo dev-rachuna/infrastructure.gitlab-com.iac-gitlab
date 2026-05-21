@@ -1,7 +1,7 @@
 {
   "module": {
     "_gitlab-com": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=feat/init",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=main",
       "parent_group": "${local.parent_name}",
       "name": "gitlab-com",
       "description": "Zarządzanie gitlab.com w kontekście grupy dev.rachuna",

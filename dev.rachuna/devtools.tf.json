@@ -1,7 +1,7 @@
 {
   "module": {
     "_devtools": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=feat/init",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=main",
       "parent_group": "${local.parent_name}",
       "name": "devtools",
       "description": "Narzedzia i skrypty dla developerów",
