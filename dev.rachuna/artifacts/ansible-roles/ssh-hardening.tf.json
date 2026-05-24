@@ -1,0 +1,12 @@
+{
+  "module": {
+    "ssh-hardening": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "name": "ssh-hardening",
+      "description": "Rola Ansible do instalacji i hardeningu serwera OpenSSH na systemach Debian/Ubuntu, RHEL/AlmaLinux oraz Alpine.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-role"
+    }
+  }
+}
