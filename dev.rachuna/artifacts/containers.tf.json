@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_containers": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=main",
+      "name": "containers",
+      "description": "Repozytoria z obrazami kontenerowymi.",
+      "parent_group": "${local.parent_name}",
+      "visibility": "public",
+      "avatar": "images/container.png"
+    },
+    "containers": {
+      "source": "./containers/"
+    }
+  }
+}
