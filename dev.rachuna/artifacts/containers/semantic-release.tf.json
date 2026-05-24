@@ -1,0 +1,13 @@
+{
+  "module": {
+    "semantic-release": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "parent_group": "${local.parent_name}",
+      "name": "semantic-release",
+      "description": "Kontener z narzędziem semantic-release",
+      "visibility": "public",
+      "project_type": "image-builder",
+      "avatar": "images/semantic-release.png"
+    }
+  }
+}
