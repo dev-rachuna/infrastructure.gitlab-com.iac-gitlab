@@ -26,6 +26,10 @@
         "VAULT_ADDR": {
           "description": "Adres serwera Vault",
           "value": "https://vault.rachuna-net.pl"
+        },
+        "GITLAB_TOKEN": {
+          "description": "Token dostępu do Gitlab API",
+          "value": "${data.vault_kv_secret_v2.auth_gitlab.data[\"GITLAB_TOKEN\"]}"
         }
       }
     },

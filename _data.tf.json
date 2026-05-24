@@ -1,0 +1,10 @@
+{
+  "data": {
+    "vault_kv_secret_v2": {
+      "auth_gitlab": {
+        "mount": "dev.rachuna",
+        "name": "auth/gitlab.com"
+      }
+    }
+  }
+}

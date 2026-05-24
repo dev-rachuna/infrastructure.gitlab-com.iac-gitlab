@@ -1,4 +1,8 @@
 {
+    "ansible":{
+        "description": "Ansible",
+        "color": "#c21e56"
+    },
     "opentofu": {
         "description": "OpenTofu",
         "color": "#FFEE00"
