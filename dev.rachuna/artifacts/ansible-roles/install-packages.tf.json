@@ -1,0 +1,12 @@
+{
+  "module": {
+    "install-packages": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "name": "install-packages",
+      "description": "Rola Ansible `install-packages` do instalacji, aktualizacji i usuwania pakietów na dystrybucjach Linux: Debian/Ubuntu (APT), RedHat/AlmaLinux (DNF), Alpine (APK). Obsługuje dodawanie repozytoriów z kluczami GPG oraz uruchamianie skryptów instalacyjnych repozytoriów.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-role"
+    }
+  }
+}
