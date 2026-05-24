@@ -1,5 +1,9 @@
 {
-    "ansible":{
+    "gitlab-ci": {
+        "description": "GitLab CI",
+        "color": "#ed9121"
+    },
+    "ansible": {
         "description": "Ansible",
         "color": "#c21e56"
     },
