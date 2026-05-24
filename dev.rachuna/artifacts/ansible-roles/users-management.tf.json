@@ -1,9 +1,9 @@
 {
   "module": {
-    "set-timezone": {
+    "users-management": {
       "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
-      "name": "set-timezone",
-      "description": "Rola Ansible konfigurująca strefę czasową i locale na systemach Debian/Ubuntu.",
+      "name": "users-management",
+      "description": "Rola Ansible (`users-management`) do zarządzania kontami użytkowników (zwykłych i technicznych), grupami systemowymi oraz kluczami SSH na systemach Linux.",
       "visibility": "public",
       "parent_group": "${local.parent_name}",
       "project_type": "ansible-role"
