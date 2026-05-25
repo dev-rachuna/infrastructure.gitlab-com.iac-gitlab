@@ -92,7 +92,7 @@
   },
   "image-builder": {
     "avatar": "images/container.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:develop",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/image-builder",
     "tags": [
       "image-builder",
       "container"

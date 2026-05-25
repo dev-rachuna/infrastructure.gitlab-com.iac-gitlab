@@ -1,0 +1,13 @@
+{
+  "module": {
+    "buildah": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "parent_group": "${local.parent_name}",
+      "name": "buildah",
+      "description": "Kontener z narzędziem Buildah, wykorzystywany w procesach budowania kontenerów w środowisku GitLab CI.",
+      "visibility": "public",
+      "project_type": "image-builder",
+      "avatar": "images/buildah.png"
+    }
+  }
+}
