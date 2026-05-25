@@ -1,0 +1,13 @@
+{
+  "module": {
+    "opentofu": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "parent_group": "${local.parent_name}",
+      "name": "opentofu",
+      "description": "Kontener z narzędziem opentofu",
+      "visibility": "public",
+      "project_type": "image-builder",
+      "avatar": "images/opentofu.png"
+    }
+  }
+}
