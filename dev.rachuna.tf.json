@@ -1,7 +1,7 @@
 {
   "module": {
     "_dev_rachuna": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
       "parent_group": "${local.parent_name}",
       "name": "dev.rachuna",
       "description": "https://rachuna.dev",
