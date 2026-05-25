@@ -1,0 +1,13 @@
+{
+  "module": {
+    "ansible": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "parent_group": "${local.parent_name}",
+      "name": "ansible",
+      "description": "Kontener z narzędziem ansible i molecule",
+      "visibility": "public",
+      "project_type": "image-builder",
+      "avatar": "images/ansible.png"
+    }
+  }
+}
