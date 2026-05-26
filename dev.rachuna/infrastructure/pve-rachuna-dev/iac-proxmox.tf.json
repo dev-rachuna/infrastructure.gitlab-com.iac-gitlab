@@ -1,0 +1,17 @@
+{
+  "module": {
+    "iac-proxmox": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "iac-proxmox",
+      "description": "IAC do zarządzania środowiskiem Proxmox.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "opentofu-iac",
+      "environments": {
+        "production": {
+          "external_url": "https://gitlab.com/dev.rachuna/infrastructure/pve-rachuna-dev/iac-proxmox/-/terraform"
+        }
+      }
+    }
+  }
+}
