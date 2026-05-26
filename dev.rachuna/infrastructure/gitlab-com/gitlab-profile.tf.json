@@ -1,7 +1,7 @@
 {
   "module": {
     "gitlab-profile": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "gitlab-profile",
       "description": "Dokumentacja dla przestrzeni pl.rachuna-net w gitlab.com",
       "visibility": "public",
