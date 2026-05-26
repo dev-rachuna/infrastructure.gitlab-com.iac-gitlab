@@ -1,7 +1,7 @@
 {
   "module": {
     "set-hostname": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "set-hostname",
       "description": "Rola Ansible set-hostname — ustawia hostname serwera i aktualizuje /etc/hosts (wpis 127.0.1.1). Obsługuje Debian, Ubuntu, AlmaLinux (EL 7/8/9), Alpine.",
       "visibility": "public",

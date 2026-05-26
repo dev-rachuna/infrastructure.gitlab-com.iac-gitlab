@@ -1,7 +1,7 @@
 {
   "module": {
     "users-management": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "users-management",
       "description": "Rola Ansible (`users-management`) do zarządzania kontami użytkowników (zwykłych i technicznych), grupami systemowymi oraz kluczami SSH na systemach Linux.",
       "visibility": "public",
