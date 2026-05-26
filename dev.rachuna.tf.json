@@ -30,6 +30,10 @@
         "GITLAB_TOKEN": {
           "description": "Token dostępu do Gitlab API",
           "value": "${data.vault_kv_secret_v2.auth_gitlab.data[\"GITLAB_TOKEN\"]}"
+        },
+        "GITLAB_SSH_KEY": {
+          "description": "Klucz SSH do repozytorium Gitlab",
+          "value": "${data.vault_kv_secret_v2.auth_gitlab.data[\"GITLAB_SSH_KEY\"]}"
         }
       }
     },
