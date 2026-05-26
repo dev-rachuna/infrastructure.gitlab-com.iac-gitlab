@@ -1,13 +1,13 @@
 {
   "module": {
-    "buildah": {
+    "ansible": {
       "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "parent_group": "${local.parent_name}",
-      "name": "buildah",
-      "description": "Kontener z narzędziem Buildah, wykorzystywany w procesach budowania kontenerów w środowisku GitLab CI.",
+      "name": "ansible",
+      "description": "Kontener z narzędziem ansible i molecule",
       "visibility": "public",
       "project_type": "image-builder",
-      "avatar": "images/buildah.png"
+      "avatar": "images/ansible.png"
     }
   }
 }

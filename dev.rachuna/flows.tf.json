@@ -1,7 +1,7 @@
 {
   "module":{
     "_flows": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
       "parent_group": "${local.parent_name}",
       "name": "flows",
       "description": "Współdzielone workflows i pipelines - GitLab, Jenkins i ArgoCD",

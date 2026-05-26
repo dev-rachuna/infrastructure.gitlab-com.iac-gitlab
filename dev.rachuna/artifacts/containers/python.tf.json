@@ -1,7 +1,7 @@
 {
   "module": {
     "python": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "parent_group": "${local.parent_name}",
       "name": "python",
       "description": "Kontener z python, wykorzystywany w procesach budowania kontenerów w środowisku GitLab CI.",

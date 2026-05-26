@@ -1,7 +1,7 @@
 {
   "module": {
     "sudo": {
-      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=main",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "sudo",
       "description": "Ansible role sudo — instaluje pakiet sudo oraz konfiguruje reguły NOPASSWD:ALL dla grup administracyjnych (domyślnej systemowej oraz dodatkowych). Działa na rodzinach: Debian, RedHat, Alpine.",
       "visibility": "public",
