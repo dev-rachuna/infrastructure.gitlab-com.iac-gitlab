@@ -1,13 +1,11 @@
 {
   "data": {
-    "vault_kv_secret_v2": {
+    "vault_generic_secret": {
       "auth_gitlab": {
-        "mount": "dev.rachuna",
-        "name": "auth/gitlab.com"
+        "path": "dev.rachuna/auth/gitlab.com"
       },
       "auth_vault": {
-        "mount": "dev.rachuna",
-        "name": "auth/vault.rachuna.dev"
+        "path": "dev.rachuna/auth/vault.rachuna.dev"
       }
     }
   }
