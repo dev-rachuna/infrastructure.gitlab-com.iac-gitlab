@@ -4,6 +4,10 @@
       "auth_gitlab": {
         "mount": "dev.rachuna",
         "name": "auth/gitlab.com"
+      },
+      "auth_vault": {
+        "mount": "dev.rachuna",
+        "name": "auth/vault.rachuna.dev"
       }
     }
   }
