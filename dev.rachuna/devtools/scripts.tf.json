@@ -1,0 +1,13 @@
+{
+  "module": {
+    "scripts": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "parent_group": "${local.parent_name}",
+      "name": "scripts",
+      "description": "Centralne repozytorium skryptów developerskich.",
+      "visibility": "public",
+      "tags": ["scripts"],
+      "avatar": "images/scripts.png"
+    }
+  }
+}
