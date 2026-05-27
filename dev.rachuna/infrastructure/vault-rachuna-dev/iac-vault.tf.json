@@ -1,0 +1,17 @@
+{
+  "module": {
+    "iac-vault": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "name": "iac-vault",
+      "description": "IAC do zarządzania środowiskiem VAULT.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "opentofu-iac",
+      "environments": {
+        "production": {
+          "external_url": "hhttps://gitlab.com/pl.rachuna-net/infrastructure/vault-rachuna-net/iac-vault/-/terraform"
+        }
+      }
+    }
+  }
+}
