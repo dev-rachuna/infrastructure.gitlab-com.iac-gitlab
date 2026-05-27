@@ -1,0 +1,12 @@
+{
+  "module": {
+    "certificates": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "certificates",
+      "description": "Rola Ansible certificates — zarządzanie certyfikatami CA i TLS (Vault PKI) w infrastrukturze rachuna-net.pl.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-role"
+    }
+  }
+}

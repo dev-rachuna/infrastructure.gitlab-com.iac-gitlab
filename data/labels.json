@@ -7,6 +7,10 @@
         "description": "Ansible",
         "color": "#c21e56"
     },
+    "bash": {
+        "description": "Bash",
+        "color": "#009966"
+    },
     "opentofu": {
         "description": "OpenTofu",
         "color": "#FFEE00"
