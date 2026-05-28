@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+source ./bin/tofu-init
+
+tofu plan

@@ -25,11 +25,19 @@
         },
         "VAULT_ADDR": {
           "description": "Adres serwera Vault",
-          "value": "https://vault.rachuna-net.pl"
+          "value": "https://vault.rachuna.dev"
+        },
+        "VAULT_TOKEN": {
+          "description": "Token dostępu do Vault",
+          "value": "${data.vault_generic_secret.auth_vault.data[\"VAULT_TOKEN\"]}"
         },
         "GITLAB_TOKEN": {
           "description": "Token dostępu do Gitlab API",
-          "value": "${data.vault_kv_secret_v2.auth_gitlab.data[\"GITLAB_TOKEN\"]}"
+          "value": "${data.vault_generic_secret.auth_gitlab.data[\"GITLAB_TOKEN\"]}"
+        },
+        "GITLAB_SSH_KEY": {
+          "description": "Klucz SSH do repozytorium Gitlab",
+          "value": "${data.vault_generic_secret.auth_gitlab.data[\"GITLAB_SSH_KEY\"]}"
         }
       }
     },

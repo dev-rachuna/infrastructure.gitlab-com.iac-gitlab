@@ -1,0 +1,12 @@
+{
+  "module": {
+    "haproxy": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "haproxy",
+      "description": "Ansible role haproxy — instalacja i konfiguracja HAProxy jako load balancer HTTP/HTTPS.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-role"
+    }
+  }
+}

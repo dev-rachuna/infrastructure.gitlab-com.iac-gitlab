@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_vault-rachuna-dev": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
+      "name": "vault-rachuna-dev",
+      "description": "IAC dla vault",
+      "parent_group": "${local.parent_name}",
+      "visibility": "public",
+      "avatar": "images/vault.png"
+    },
+    "vault-rachuna-dev": {
+      "source": "./vault-rachuna-dev/"
+    }
+  }
+}

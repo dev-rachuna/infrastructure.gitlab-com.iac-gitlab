@@ -1,0 +1,12 @@
+{
+  "module": {
+    "install-keepalived-vip": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "install-keepalived-vip",
+      "description": "Rola Ansible install-keepalived-vip — instaluje i konfiguruje keepalived do obslugi wirtualnych adresow IP (VIP) przez VRRP.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-role"
+    }
+  }
+}

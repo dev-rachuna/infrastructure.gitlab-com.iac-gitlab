@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_pve-rachuna-dev": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
+      "name": "pve-rachuna-dev",
+      "description": "Zarządzanie clusterem Proxmox VE (pve.rachuna.dev)",
+      "parent_group": "${local.parent_name}",
+      "visibility": "public",
+      "avatar": "images/proxmox.png"
+    },
+    "pve-rachuna-dev": {
+      "source": "./pve-rachuna-dev/"
+    }
+  }
+}

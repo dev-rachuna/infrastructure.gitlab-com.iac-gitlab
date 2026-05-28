@@ -1,0 +1,12 @@
+{
+  "module": {
+    "gitlab-profile": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "gitlab-profile",
+      "description": "Dokumentacja Ansible Roles",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "gitlab-profile"
+    }
+  }
+}

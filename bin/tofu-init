@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Credentials should be set via environment variables, not hardcoded
+# CI_JOB_TOKEN - GitLab token (set via GITLAB_TOKEN)
+# VAULT_ADDR - Vault server address (set via environment)
+# VAULT_TOKEN - Vault authentication token (set via environment)
+
+CI_SERVER_URL="${CI_SERVER_URL:-https://gitlab.com}"
+CI_JOB_TOKEN="${CI_JOB_TOKEN:-${GITLAB_TOKEN:-}}"
+TF_STATE_NAME="${TF_STATE_NAME:-production}"
+
+if [ -z "$CI_JOB_TOKEN" ]; then
+  echo "❌ Brak tokena: ustaw GITLAB_TOKEN lub CI_JOB_TOKEN"
+  exit 1
+fi
+
+# get full_path
+GITLAB_URL=$(git config --get remote.origin.url)
+
+CI_PROJECT_FULL_PATH=$(echo "$GITLAB_URL" \
+  | sed -E 's#^git@[^:]+:##' \
+  | sed -E 's#\.git$##')
+
+CI_PROJECT_ID=$(curl -s --header "PRIVATE-TOKEN: $CI_JOB_TOKEN" "https://gitlab.com/api/v4/projects/${CI_PROJECT_FULL_PATH//\//%2F}" | jq -r '.id')
+
+
+echo "🔧 Initializing OpenTofu with GitLab backend..."
+echo ""
+echo "   Project url:       ${GITLAB_URL}"
+echo "   Project full path: ${CI_PROJECT_FULL_PATH}"
+echo "   Project:           ${CI_SERVER_URL}/-/projects/${CI_PROJECT_ID}"
+echo "   State:             ${TF_STATE_NAME}"
+echo "   Token:             ${CI_JOB_TOKEN}"
+
+rm -fr .terraform
+rm -fr .terraform.lock.hcl*
+
+tofu init \
+  -backend-config="address=${CI_SERVER_URL}/api/v4/projects/${CI_PROJECT_ID}/terraform/state/${TF_STATE_NAME}" \
+  -backend-config="lock_address=${CI_SERVER_URL}/api/v4/projects/${CI_PROJECT_ID}/terraform/state/${TF_STATE_NAME}/lock" \
+  -backend-config="unlock_address=${CI_SERVER_URL}/api/v4/projects/${CI_PROJECT_ID}/terraform/state/${TF_STATE_NAME}/lock" \
+  -backend-config="username=mrachuna" \
+  -backend-config="password=${CI_JOB_TOKEN}" \
+  -backend-config="lock_method=POST" \
+  -backend-config="unlock_method=DELETE" \
+  -backend-config="retry_wait_min=5"
+
+echo "✅ OpenTofu initialized."

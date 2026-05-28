@@ -60,7 +60,7 @@
     ],
     "ci_variables": {
       "ANSIBLE_USER": {
-        "value": "techuser",
+        "value": "tech_user",
         "description": "Użytkownik techniczny"
       }
     },
