@@ -8,9 +8,9 @@
       "parent_group": "${local.parent_name}",
       "project_type": "ansible-playbook",
       "environments": {
-        "gitlab-runner-1025": {},
-        "gitlab-runner-1026": {},
-        "gitlab-runner-1027": {}
+        "gitlab-runner-1002": {},
+        "gitlab-runner-1003": {},
+        "gitlab-runner-1004": {}
       }
     }
   }

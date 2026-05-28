@@ -25,7 +25,7 @@
         },
         "VAULT_ADDR": {
           "description": "Adres serwera Vault",
-          "value": "http://vault-1005.rachuna.dev:8200"
+          "value": "https://vault.rachuna.dev"
         },
         "VAULT_TOKEN": {
           "description": "Token dostępu do Vault",

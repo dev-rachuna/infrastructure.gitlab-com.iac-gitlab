@@ -1,7 +1,7 @@
 {
   "module": {
     "iac-vault": {
-      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "iac-vault",
       "description": "IAC do zarządzania środowiskiem VAULT.",
       "visibility": "public",

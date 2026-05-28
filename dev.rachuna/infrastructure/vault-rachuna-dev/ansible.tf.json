@@ -1,21 +1,21 @@
 {
   "module": {
     "ansible": {
-      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/gitlab-project.git?ref=1.5.0",
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "ansible",
       "description": "Instalacja clustra consul i vault za pomocą Ansible",
       "visibility": "public",
       "parent_group": "${local.parent_name}",
       "project_type": "ansible-playbook",
       "environments": {
-        "vault-1022": {
-          "external_url": "https://vault-1022.rachuna-net.pl:8200"
+        "vault-1005": {
+          "external_url": "https://vault-1005.rachuna.dev:8200"
         },
-        "vault-1023": {
-          "external_url": "https://vault-1023.rachuna-net.pl:8200"
+        "vault-1006": {
+          "external_url": "https://vault-1006.rachuna.dev:8200"
         },
-        "vault-1024": {
-          "external_url": "https://vault-1024.rachuna-net.pl:8200"
+        "vault-1007": {
+          "external_url": "https://vault-1007.rachuna.dev:8200"
         }
       }
     }

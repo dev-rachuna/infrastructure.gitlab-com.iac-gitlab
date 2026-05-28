@@ -11,16 +11,7 @@
         "production": {
           "external_url": "https://gitlab.com/dev.rachuna/infrastructure/gitlab-com/iac-gitlab/-/terraform"
         }
-      },
-      "ci_schedules": [
-        {
-          "name": "Nightly",
-          "description": "Nightly patch management",
-          "ref": "main",
-          "cron": "0 1 * * *",
-          "cron_timezone": "Europe/Warsaw"
-        }
-      ]
+      }
     }
   }
 }
