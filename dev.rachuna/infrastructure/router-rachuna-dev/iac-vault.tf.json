@@ -1,0 +1,17 @@
+{
+  "module": {
+    "iac-router": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "iac-router",
+      "description": "IAC do zarządzania środowiskiem ROUTER.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "opentofu-iac",
+      "environments": {
+        "production": {
+          "external_url": "hhttps://gitlab.com/pl.rachuna-net/infrastructure/router-rachuna-net/iac-router/-/terraform"
+        }
+      }
+    }
+  }
+}
