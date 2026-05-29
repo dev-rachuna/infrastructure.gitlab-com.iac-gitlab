@@ -1,0 +1,13 @@
+{
+  "module": {
+    "awesome": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "",
+      "avatar": "images/awesome.png"
+    }
+  }
+}
