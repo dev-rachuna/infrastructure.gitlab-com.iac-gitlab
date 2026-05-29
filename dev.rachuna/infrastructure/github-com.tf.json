@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_github-com": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
+      "parent_group": "${local.parent_name}",
+      "name": "github-com",
+      "description": "Zarządzanie github.com w kontekście grupy dev.rachuna",
+      "visibility": "public",
+      "avatar": "images/github.png"
+    },
+    "github-com": {
+      "source": "./github-com/"
+    }
+  }
+}
