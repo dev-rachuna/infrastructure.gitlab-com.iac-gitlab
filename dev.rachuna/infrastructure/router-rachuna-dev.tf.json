@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_router-rachuna-dev": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
+      "name": "router-rachuna-dev",
+      "description": "IAC dla router",
+      "parent_group": "${local.parent_name}",
+      "visibility": "public",
+      "avatar": "images/mikrotik.png"
+    },
+    "router-rachuna-dev": {
+      "source": "./router-rachuna-dev/"
+    }
+  }
+}

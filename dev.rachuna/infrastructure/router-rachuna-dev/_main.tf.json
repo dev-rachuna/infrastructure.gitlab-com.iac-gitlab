@@ -1,0 +1,8 @@
+{
+  "locals": {
+    "parent_name": "dev.rachuna/infrastructure/router-rachuna-dev"
+  },
+  "terraform": {
+    "required_version": ">= 1.10.5"
+  }
+}

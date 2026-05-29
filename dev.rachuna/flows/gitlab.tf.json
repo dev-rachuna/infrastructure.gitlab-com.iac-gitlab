@@ -4,7 +4,7 @@
       "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "parent_group": "${local.parent_name}",
       "name": "gitlab",
-      "description": "Procesy do ciągłej integracji i dostarczania (CI/CD) dla projektów w grupie pl.rachuna-net",
+      "description": "Procesy do ciągłej integracji i dostarczania (CI/CD) dla projektów w grupie dev.rachuna",
       "visibility": "public",
       "project_type": "gitlab-pipelines",
       "avatar": "images/gitlab.png"
