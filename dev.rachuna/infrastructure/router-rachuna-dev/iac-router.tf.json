@@ -3,7 +3,7 @@
     "iac-router": {
       "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
       "name": "iac-router",
-      "description": "IAC do zarządzania środowiskiem ROUTER.",
+      "description": "IAC do zarządzania routerem brzegowym.",
       "visibility": "public",
       "parent_group": "${local.parent_name}",
       "project_type": "opentofu-iac",

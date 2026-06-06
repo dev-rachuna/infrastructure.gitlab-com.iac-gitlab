@@ -1,0 +1,13 @@
+{
+  "module": {
+    "routeros-interfaces": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "routeros-interfaces",
+      "description": "Moduł opentofu do zarządzania interfejsami routerów ROS.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "opentofu-module",
+      "avatar": "images/mikrotik.png"
+    }
+  }
+}
