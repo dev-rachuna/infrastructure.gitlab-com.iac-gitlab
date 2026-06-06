@@ -1,0 +1,17 @@
+{
+  "module": {
+    "ansible": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "ansible",
+      "description": "Hardening proxmox VE za pomocą Ansible.",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "ansible-playbook",
+      "environments": {
+        "gitlab-runner-1002": {},
+        "gitlab-runner-1003": {},
+        "gitlab-runner-1004": {}
+      }
+    }
+  }
+}

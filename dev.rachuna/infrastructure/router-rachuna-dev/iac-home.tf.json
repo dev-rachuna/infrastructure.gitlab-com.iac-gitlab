@@ -1,0 +1,17 @@
+{
+  "module": {
+    "iac-home": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "iac-home",
+      "description": "IAC do zarządzania routerem home.rachuna.dev.",
+      "visibility": "private",
+      "parent_group": "${local.parent_name}",
+      "project_type": "opentofu-iac",
+      "environments": {
+        "production": {
+          "external_url": "hhttps://gitlab.com/dev.rachuna/infrastructure/router-rachuna-dev/iac-home/-/terraform"
+        }
+      }
+    }
+  }
+}
