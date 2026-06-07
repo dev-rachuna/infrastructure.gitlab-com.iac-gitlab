@@ -1,0 +1,15 @@
+{
+  "module": {
+    "_postgressql-rachuna-dev": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-group.git?ref=1.0.0",
+      "name": "postgresql-rachuna-dev",
+      "description": "IAC dla postgresql",
+      "parent_group": "${local.parent_name}",
+      "visibility": "public",
+      "avatar": "images/postgressql.png"
+    },
+    "postgresql-rachuna-dev": {
+      "source": "./postgresql-rachuna-dev/"
+    }
+  }
+}

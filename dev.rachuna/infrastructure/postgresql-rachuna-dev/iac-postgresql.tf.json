@@ -1,0 +1,17 @@
+{
+  "module": {
+    "iac-postgresql": {
+      "source": "git::https://gitlab.com/dev.rachuna/artifacts/opentofu/gitlab-project.git?ref=1.0.0",
+      "name": "iac-postgresql",
+      "description": "IAC do zarządzania bazami danych postgresql",
+      "visibility": "public",
+      "parent_group": "${local.parent_name}",
+      "project_type": "opentofu-iac",
+      "environments": {
+        "production": {
+          "external_url": "hhttps://gitlab.com/dev.rachuna/infrastructure/postgresql-rachuna-dev/iac-postgresql/-/terraform"
+        }
+      }
+    }
+  }
+}
